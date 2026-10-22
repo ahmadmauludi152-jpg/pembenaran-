@@ -1,0 +1,7 @@
+const tombolSapa = document.getElementById("sapaButton");
+
+// Menambahkan aksi ketika tombol diklik
+tombolSapa.addEventListener("click", function() {
+    // Menampilkan pesan kepada pengunjung
+    alert("Halo! Terima kasih sudah berkunjung!");
+});
